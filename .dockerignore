@@ -1,0 +1,17 @@
+# Build output
+target/
+
+# IDE files
+.idea/
+.vscode/
+
+# Git files
+.git/
+.gitignore
+
+# Logs
+*.log
+
+# Local environment files
+.env
+.env.*
