@@ -19,6 +19,11 @@ public class ChatController {
         return chatService.chat(message);
     }
 
+    @GetMapping("/health")
+    public String health() {
+        return "OK";
+    }
+
     @DeleteMapping
     public void clearChat() {
         chatService.clearHistory();
